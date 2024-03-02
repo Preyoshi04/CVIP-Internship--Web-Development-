@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_52683-59881.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  border-radius: 10px;
+}
+
+.fas {
+  color: #2f00ff;
+}
+
+.search-box,
+.form-btn,
+.celsius-btn,
+.fahrenheit-btn {
+  margin-top: 15px;
+  padding: 6px;
+  border: 0.7px solid #636363;
+}
+
+.search-box,
+.form-btn {
+  border-radius: 5px;
+}
+
+.search-box {
+  width: 300px;
+  margin-left: 15px;
+}
+
+.form-btn,
+.celsius-btn,
+.fahrenheit-btn {
+  background: none;
+  width: 40px;
+}
+
+.form-btn:hover {
+  background: #f3eaea;
+}
+
+.celsius-btn,
+.fahrenheit-btn {
+  border-radius: 10px;
+}
+
+.celsius-btn {
+  margin-left: 23px;
+  background: #f7e4df;
+}
+
+h1 {
+  padding: 15px 0 5px 20px;
+  font-size: 34px;
+}
+
+.date-description {
+  padding-left: 37px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.icon {
+  position: relative;
+  bottom: 25px;
+  left: 85px;
+}
+
+h2 {
+  position: relative;
+  right: 6px;
+}
+
+.current-temp {
+  font-size: 45px;
+}
+
+.weather-unit {
+  position: relative;
+  left: 2px;
+  bottom: 12px;
+}
+
+.weather-extra {
+  font-size: 14px;
+  position: relative;
+  left: 360px;
+  bottom: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+.hour-forecast {
+  text-align: center;
+  margin: 50px 0 15px 0;
+  padding: 5px;
+}
+
+.hour-forecast img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.col-2 {
+  padding: 0 10px;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.forecast-unit {
+  font-size: 11px;
+  position: relative;
+  bottom: 2.5px;
+}
+
+.author a {
+  color: #636363;
+  text-decoration: underline;
+}
+
+.author a:hover {
+  color: #000000;
+}
